@@ -1,0 +1,90 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Start Journey */
+.influencer-products {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.start-journey {
+    width: 582px;
+    height: 270px;
+}
+
+.start-journey h1 {
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+
+.start-journey p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.pre-book {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    justify-content: center;
+    color: white;
+}
+
+.camera img {
+    width: 440px;
+    height: 414px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 688px) {
+    .influencer-products {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .start-journey {
+        width: 404px;
+        height: 222px;
+
+    }
+
+    .start-journey h1 {
+        font-size: 28px;
+        width: 404px;
+        height: 78px;
+
+        text-align: center;
+
+    }
+
+    .start-journey p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 10%;
+        width: 321px;
+        text-align: center;
+    }
+
+    .camera img {
+        width: 257px;
+        height: 257px;
+    }
+
+    .pre-book {
+        padding-right: 20px;
+        margin-left: 29%;
+        padding-left: 2px;
+        width: 150px;
+
+    }
+}
